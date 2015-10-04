@@ -1,0 +1,109 @@
+<html>
+<head>
+	<title>Delta</title>
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="materialize/css/materialize.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<script src="materialize/js/materialize.min.js"type="text/javascript"></script>
+	<style type="text/css">
+		
+		#logo:hover
+		{
+			background-color: white;
+		}
+		body{
+			background-image: url("bg.jpe");
+			/*background-size: 500%;
+			background-repeat: no-repeat;*/
+		}
+	</style>
+		<script>
+		(function($){
+  $(function(){
+
+    $('.button-collapse').sideNav();
+
+  }); // end of document ready
+})(jQuery); // end of jQuery name space
+	</script>
+</head>
+<body>
+<div class="navbar-fixed">
+	<nav class="blue">
+		<div class="navbar-wrapper"> <a href="#" class="brand-logo right"><img src="Delta-logo.png" height=60 width=60></a></div>
+		<ul id="slide-out" class="side-nav">
+	<li id="logo"><img src="Delta-logo.png" height=120 width=120></li>
+    <li class="bold active"><a href="#!">Home</a></li>
+    <li><a href="#!">Portals</a></li>
+    <li><a href="#!">Workshops</a></li>
+    <li><a href="#!">Competitions</a></li>
+    <li><a href="#!">SIG</a></li>
+    <li><a href="#!">Games</a></li>
+ 		 </ul>
+  <a href="#" data-activates="slide-out" class="button-collapse show-on-large"><i class="mdi-navigation-menu"></i></a>
+	</nav>
+</div>
+<div class="container">
+	<div class="card-panel grey lighten-4">
+		
+			<h2 class="blue-text">ABOUT US</h2>
+			<p> Premier coding club and web team of NIT Trichy </p>
+		
+	</div>
+</div>	
+
+<!--PROJECTS-->
+	<div class="container">
+		<div class="card-panel grey lighten-4">
+			<h2 class="blue-text">OUR WORK</h4>
+		<div class="row projects center-align"></div>
+		</div>
+	</div>
+
+
+<!--MEMBERS-->
+	<div class="container">
+		<div class="card-panel grey lighten-4">
+			<h2 class="blue-text">OUR TEAM</h2>
+			<div class="members row center-align"></div>
+		</div>
+	</div>
+
+	<footer class="page-footer blue">
+		<div class="container">
+			<div class="row" style="padding:10px;">
+				<div class="col l4 right">
+					<a href="https://facebook.com/delta.nit.trichy" class="white-text"><img src="fb.png" style="width:35px; height:35px;"><span style="padding:10px;">Like us on Fb</span></a>
+				</div>
+				<div class="col l4 left">
+					<a href="#"><span class="white-text">About us</span></a>
+				</div>
+			</div>
+			<div class="row" style="padding:10px;">
+				<div class="col l4 right">
+					<a href="https://github.com/delta" class="white-text"><img src="github.png" style="width:35px; height:35px;"><span style="padding:10px;">Follow us on Github</span></a>
+				</div>
+				<div class="col l4 left">
+					<a href="#"><span class="white-text">links</span></a>
+				</div>
+			</div>
+			<div class="row" style="padding:10px;">
+				<div class="col l4 right">
+					<a href="facebook.com/" class="white-text center-align"><img src="gplus.png" style="width:35px; height:35px;"><span style="margin: 10px;">Text us on Google+</span></a>
+				</div>
+				<div class="col l4 left">
+					<a href="#"><span class="white-text">more links</span></a>
+				</div>
+			</div>
+			<div class="footer-copyright white-text blue">
+				<div class="row">
+					<div class="col s6">Copyright &copy; Delta|All rights reserved.</div>
+					<div class="col s4 right"><span>Made with</span> <span style="font-size:20px">&hearts;</span> <span>by Delta Force</span></div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+<script src="projects.js"></script>
+<script src="members.js"></script>
+</html>
